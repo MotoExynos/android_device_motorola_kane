@@ -20,6 +20,10 @@ $(call inherit-product, device/motorola/exynos9610-common/common.mk)
 # Inherit proprietary files
 $(call inherit-product, vendor/motorola/kane/kane-vendor.mk)
 
+# Overlays
+DEVICE_PACKAGE_OVERLAYS += \
+    $(LOCAL_PATH)/overlay-xdroid
+
 # Wifi
 PRODUCT_PACKAGES += \
     KaneWifiOverlay
