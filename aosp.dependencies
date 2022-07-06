@@ -1,6 +1,66 @@
 [
     {
-        "repository": "android_device_motorola_exynos9610-common",
-        "target_path": "device/motorola/exynos9610-common"
+        "repository": "device_motorola_exynos9610-common",
+        "target_path": "device/motorola/exynos9610-common",
+        "branch": "twelve"
+    },
+    {  
+        "repository": "vendor_motorola_exynos9610-common",
+        "target_path": "vendor/motorola/exynos9610-common",
+        "branch": "twelve",
+        "remote": "pixel-devices-blobs"
+   },
+   {  
+        "repository": "vendor_motorola_kane",
+        "target_path": "vendor/motorola/kane",
+        "branch": "twelve",
+        "remote": "pixel-devices-blobs"
+   },
+   {
+        "repository": "kernel_motorola_exynos9610",
+        "target_path": "kernel/motorola/exynos9610",
+        "branch": "twelve"
+    },
+    {
+        "repository": "LineageOS/android_device_samsung_slsi_sepolicy",
+        "target_path": "device/samsung_slsi/sepolicy",
+        "branch": "lineage-19.1",
+        "remote": "github"
+    },
+    {
+        "repository": "hardware_motorola",
+        "target_path": "hardware/motorola",
+        "branch": "twelve",
+        "remote": "pixel"
+    },
+    {
+        "repository": "hardware_samsung",
+        "target_path": "hardware/samsung",
+        "branch": "twelve",
+        "remote": "pixel"
+    },
+    {
+        "repository": "LineageOS/android_hardware_samsung_slsi_fm",
+        "target_path": "hardware/samsung_slsi/fm",
+        "branch": "lineage-19.1",
+        "remote": "github"
+    },
+    {
+        "repository": "LineageOS/android_hardware_samsung_slsi_libbt",
+        "target_path": "hardware/samsung_slsi/libbt",
+        "branch": "lineage-19.1",
+        "remote": "github"
+    },
+    {
+        "repository": "LineageOS/android_hardware_samsung_slsi_scsc_wifibt_wifi_hal",
+        "target_path": "hardware/samsung_slsi/scsc_wifibt/wifi_hal",
+        "branch": "lineage-19.1",
+        "remote": "github"
+    },
+    {
+        "repository": "LineageOS/android_hardware_samsung_slsi_scsc_wifibt_wpa_supplicant_lib",
+        "target_path": "hardware/samsung_slsi/scsc_wifibt/wpa_supplicant_lib",
+        "branch": "lineage-19.1",
+        "remote": "github"
     }
 ]
