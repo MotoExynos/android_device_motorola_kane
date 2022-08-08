@@ -14,9 +14,9 @@
 # limitations under the License.
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_kane.mk
+    $(LOCAL_DIR)/xdroid_kane.mk
 
 COMMON_LUNCH_CHOICES := \
-    lineage_kane-user \
-    lineage_kane-userdebug \
-    lineage_kane-eng
+    xdroid_kane-user \
+    xdroid_kane-userdebug \
+    xdroid_kane-eng

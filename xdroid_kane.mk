@@ -22,20 +22,21 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base.mk)
 $(call inherit-product, device/motorola/kane/device.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 
-## Inherit some common CrDroid stuff
-$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
+## Inherit some common xdroid stuff
+$(call inherit-product, vendor/xdroid/config/common.mk)
+
+# xdroid props
+XDROID_BOOT := 1080
+XDROID_MAINTAINER := zlewchan
 
 ## Device identifier, this must come after all inclusions
 PRODUCT_DEVICE := kane
-PRODUCT_NAME := lineage_kane
+PRODUCT_NAME := xdroid_kane
 PRODUCT_BRAND := motorola
 PRODUCT_MODEL := moto one vision
 PRODUCT_MANUFACTURER := motorola
 
 PRODUCT_GMS_CLIENTID_BASE := android-motorola
-
-## CrDroid Props
-TARGET_BOOT_ANIMATION_RES = 1080
 
 ## Use the latest CTS approved build identifiers
 PRODUCT_BUILD_PROP_OVERRIDES += \
